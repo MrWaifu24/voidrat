@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20(Client)%20%7C%20Linux%20%7C%20macOS-blue" alt="Platform">
   <img src="https://img.shields.io/badge/Architecture-amd64-orange" alt="Architecture">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <a href="https://www.namtao.com/0rwx/"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/ai-w-dark.svg"><img src=".github/ai-w-light.svg" alt="AI use: Level W (Write), with help from an AI co-writer" height="20"></picture></a>
 </p>
 
 A lightweight, modular Remote Access & Administration Tool (RAT) framework written in Go. **VoidRat** decouples payload compilation from configuration by employing a binary trailing injection technique: a pre-compiled Windows GUI stub is patched with target C2 connection metadata at build-time in milliseconds, without requiring the Go compiler on the operator's machine.
